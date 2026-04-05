@@ -1,12 +1,15 @@
 # CIFAR-10 CNN Classification
 
-CNN-based CIFAR-10 image classification with performance analysis and model improvements.
+CNN-based CIFAR-10 image classification with systematic model improvement and performance analysis.
 
 > Built to explore CNN architectures and training strategies for image classification.
 
 ## Overview
-This project implements and evaluates convolutional neural networks for CIFAR-10 image classification using PyTorch.  
-It compares a baseline CNN with an improved model using stronger training strategies and regularization techniques.
+This project implements and evaluates convolutional neural networks for CIFAR-10 image classification using PyTorch.
+
+A baseline CNN is first established, followed by a systematically improved model incorporating data augmentation, batch normalization, dropout, and learning rate scheduling.
+
+The goal is to analyze how architectural and training choices impact model performance.
 
 ## Results
 - Baseline test accuracy: **76.33%**
@@ -41,6 +44,9 @@ It compares a baseline CNN with an improved model using stronger training strate
 
 ### Confusion Matrix
 ![Confusion Matrix](images/Confusion%20Matrix.png)
+
+- Dataset: CIFAR-10 (50,000 training / 10,000 test images)
+
 ## How to Run
 
 Install dependencies:
