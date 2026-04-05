@@ -28,20 +28,19 @@ It compares a baseline CNN with an improved model using stronger training strate
 ## Sample Results
 
 ### Final Accuracy Curve
-![Final Accuracy](images/Final Accuracy.png)
+![Final Accuracy](images/Final%20Accuracy.png)
 
 ### Final Loss Curve
-![Final Loss](images/Final Loss.png)
+![Final Loss](images/Final%20Loss.png)
 
 ### Baseline Accuracy Curve
-![Baseline Accuracy](images/Baseline Accuracy.png)
+![Baseline Accuracy](images/Baseline%20Accuracy.png)
 
 ### Baseline Loss Curve
-![Baseline Loss](images/Baseline Loss.png)
+![Baseline Loss](images/Baseline%20Loss.png)
 
 ### Confusion Matrix
-![Confusion Matrix](images/Confusion Matrix.png)
-
+![Confusion Matrix](images/Confusion%20Matrix.png)
 ## How to Run
 
 Install dependencies:
